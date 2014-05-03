@@ -1,4 +1,0 @@
-theclaymethod.github.io
-=======================
-
-theClayMethodBlog
