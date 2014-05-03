@@ -1,0 +1,6 @@
+"theme-bootstrap-2" :
+  "use" : "theme"
+widgets :
+  google_prettify :
+    use : default
+    linenums : true
