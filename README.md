@@ -1,4 +1,4 @@
 theclaymethod.github.io
 =======================
 
-theClayMethoBlog
+theClayMethodBlog
