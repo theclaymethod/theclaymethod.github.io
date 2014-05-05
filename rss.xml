@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>theClayMethod Blog</title>
+    <description>theClayMethod Blog</description>
+    <link/>
+    <pubDate>2014-05-04</pubDate>
+    <item>
+      <title>Archive</title>
+      <link>/archive</link>
+      <description>
+  &lt;h2&gt;2014&lt;/h2&gt;
+    &lt;h3&gt;May&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span&gt;2014-05-03&lt;/span&gt; &amp;raquo; &lt;a href="/posts/i-hope-i-actually-stick-to-this"&gt;I Hope I Actually Stick to This&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Categories</title>
+      <link>/categories</link>
+      <description>
+&lt;ul class="tag_box inline"&gt;
+&lt;/ul&gt;
+
+</description>
+    </item>
+    <item>
+      <title>Home</title>
+      <link>/</link>
+      <description>## Hello World
+
+&lt;div class="post"&gt;
+  &lt;h3 class="title"&gt;&lt;a href="/posts/i-hope-i-actually-stick-to-this"&gt;I Hope I Actually Stick to This&lt;/a&gt; &lt;span class="date"&gt;2014-05-03&lt;/span&gt;&lt;/h3&gt;
+
+  &lt;div class="summary ellipsis"&gt;
+&lt;p&gt;The New American Dream&lt;/p&gt;
+
+&lt;p&gt;I&#x2019;ve left the glitz and glam (read: traffic and more traffic) of Los Angeles ad agency world for the San Francisco tech scene. It seems that rental prices are just the thing to complain about in SF, much like what traffic is in LA. I wonder if brunch has the same appeal here.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/fxqvX.gif"&gt;&lt;br&gt;&lt;i&gt;For Reference, this is a time-lapse of my commute in LA.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the coming weeks, I will be chronicling my transition from Agency to Startup: media buying to media platform. The demands will definitely be different. No more clients, just customers. &lt;/p&gt;
+
+&lt;p&gt;The first ordeal was really the housing search. I won&#x2019;t go into the details, since &lt;a href="http://techcrunch.com/2014/04/14/sf-housing/"&gt;TechCrunch&lt;/a&gt; did such a great job setting the scene. All I can say is that it really is a pain to find good housing here, especially when you like nice things. &lt;/p&gt;
+
+&lt;p&gt;Moving along, now we are at setting up this blog. I've installed Ruhoh using the instructions &lt;a href="http://ruhoh.com/docs/2/"&gt;here&lt;/a&gt;. My girlfriend insisted that I use a SquareSpace account or something just to get my writing up, but I didn't become a developer just to do things the easy way and automate everything (don't think about it). &lt;/p&gt;
+
+&lt;p&gt;The instructions were easy enough to follow. My only gripe is that I wish the templating language was something closer to Django's, but I think I remember some Ruby from college. 
+&lt;/p&gt;
+&lt;pre class="prettyprint bash-html"&gt;
+    git clone &lt;a href="mailto:git@github.com"&gt;git@github.com&lt;/a&gt;:theclaymethod/theclaymethod.github.io.git
+    #Obviously change "theClaymethod" to your own username, unless you want to mirror my blog. 
+    #That would be cool too
+    cd theclaymethod.github.io
+    touch Gemfile
+    echo "source \"&lt;a href="https://rubygems.org%5C%22"&gt;https://rubygems.org\"&lt;/a&gt;" &amp;gt;&amp;gt; Gemfile
+    echo "gem 'ruhoh', \"~&amp;gt; 2\"" &amp;gt;&amp;gt; Gemfile
+    bundle install
+    bundle exec ruhoh server 9292
+    git clone &lt;a href="https://github.com/ruhoh/theme-bootstrap-2.git"&gt;https://github.com/ruhoh/theme-bootstrap-2.git&lt;/a&gt; theme-bootstrap-2
+&lt;/pre&gt;
+&lt;/div&gt;
+
+  &lt;div class="more"&gt;
+    &lt;a href="/posts/i-hope-i-actually-stick-to-this" class="btn btn-small"&gt;read more..&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="pagination"&gt;
+  &lt;ul&gt;
+      &lt;li class="active"&gt;&lt;a href="/posts/index/1"&gt;1&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    <item>
+      <title>Pages</title>
+      <link>/pages</link>
+      <description>
+&lt;ul&gt;
+  
+    &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+  
+  
+    &lt;li&gt;&lt;a href="/categories"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+  
+  
+    &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li class="active"&gt;&lt;a href="/pages" class="active"&gt;Pages&lt;/a&gt;&lt;/li&gt;
+  
+  
+  
+    &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Tags</title>
+      <link>/tags</link>
+      <description>
+&lt;ul class="tag_box inline"&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#blog-ref"&gt;blog &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#ramblings-ref"&gt;ramblings &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#agency-ref"&gt;agency &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#moving-ref"&gt;moving &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#San Francisco-ref"&gt;San Francisco &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;h3 id="blog-ref"&gt;blog&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/posts/i-hope-i-actually-stick-to-this"&gt;I Hope I Actually Stick to This&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="ramblings-ref"&gt;ramblings&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/posts/i-hope-i-actually-stick-to-this"&gt;I Hope I Actually Stick to This&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="agency-ref"&gt;agency&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/posts/i-hope-i-actually-stick-to-this"&gt;I Hope I Actually Stick to This&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="moving-ref"&gt;moving&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/posts/i-hope-i-actually-stick-to-this"&gt;I Hope I Actually Stick to This&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="San Francisco-ref"&gt;San Francisco&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/posts/i-hope-i-actually-stick-to-this"&gt;I Hope I Actually Stick to This&lt;/a&gt;&lt;/li&gt;
+ 
+</description>
+    </item>
+  </channel>
+</rss>
